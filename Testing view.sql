@@ -1,0 +1,5 @@
+SET SQL_SAFE_UPDATES=0;
+UPDATE future_sessions 
+SET date = '2016.01.01' 
+WHERE date = '2015.06.05';
+SET SQL_SAFE_UPDATES=1;    

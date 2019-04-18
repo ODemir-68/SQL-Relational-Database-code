@@ -1,0 +1,11 @@
+SET SQL_SAFE_UPDATES=0;
+UPDATE take
+SET take.grade='1'
+WHERE take.grade= '20';
+SET SQL_SAFE_UPDATES=1;
+
+SET SQL_SAFE_UPDATES=0;
+UPDATE take
+SET take.grade='20'
+WHERE take.grade= '1';
+SET SQL_SAFE_UPDATES=1;
